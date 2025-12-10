@@ -13,6 +13,10 @@ terraform.tfstate.*
 *.tfstate
 *.tfstate.*
 
+# --- Terraform lock file ---
+.terraform.lock.hcl
+**/.terraform.lock.hcl
+
 # --- Terraform crash logs ---
 crash.log
 crash.*
